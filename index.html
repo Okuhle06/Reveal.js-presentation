@@ -1,1 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Reveal.js Presentation – Siphokuhle Nkala</title>
+
+    <!-- Reveal.js core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css" />
+
+    <!-- Reveal.js Theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Load slides from Markdown file -->
+        <section data-markdown="slides.md" data-separator="---" data-separator-vertical="--"></section>
+      </div>
+    </div>
+
+    <!-- Reveal.js core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+    <!-- Markdown plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+
+    <script>
+      Reveal.initialize({
+        hash: true,
+        plugins: [ RevealMarkdown ],
+      });
+    </script>
+  </body>
+</html>
 
