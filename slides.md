@@ -15,6 +15,8 @@ This is the first slide after the title.
 - Works in any browser  
 - Customizable themes  
 
+![Okuhle Image](Okuhle.jpg){width=60%}
+
 ---
 
 ## My Topics
