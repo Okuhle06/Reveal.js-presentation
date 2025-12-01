@@ -1,7 +1,13 @@
-# Reveal.js Presentation  
-### by **Siphokuhle Nkala**
-
 ---
+title: "My Reveal.js Demo"
+author: "Siphokuhle Nkala"
+format:
+  revealjs:
+    theme: sky
+    title-slide-attributes:
+      data-background-gradient: "linear-gradient(to right, #6a11cb, #2575fc)"
+---
+
 
 ## Introduction
 Welcome to my Reveal.js presentation.  
