@@ -23,10 +23,24 @@ This is the first slide after the title.
 ---
 
 ## My Topics
-1. Example slide one  
-2. Example slide two  
-3. Example slide three  
+::: {.incremental}
+1. 🚀 Introduction to Reveal.js  
+   - Overview of the framework and its uses  
 
+2. 🎯 Key Features  
+   - Markdown support, themes, and transitions  
+
+3. 💡 Creating Slides  
+   - How to structure and write slide content  
+
+4. 🎨 Customization Options  
+   - Themes, backgrounds, and navigation  
+
+5. 📤 Publishing Online  
+   - Hosting your presentation on GitHub Pages  
+:::
+
+  
 ---
 
 ## Thank You
