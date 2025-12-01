@@ -9,6 +9,13 @@ format:
 ---
 
 
+## Slide 1 Title
+
+- First bullet  
+- Second bullet
+
+
+
 ## Introduction
 Welcome to my Reveal.js presentation.  
 This is the first slide after the title.
