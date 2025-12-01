@@ -16,7 +16,9 @@ This is the first slide after the title.
 - Customizable themes
  
 
-![Okuhle Image](Okuhle.jpg){width=60%}
+<div style="text-align:center;">
+  <img src="Okuhle.jpg" style="max-width:90%; height:auto;" alt="Okuhle Image" />
+</div>
 
 ---
 
