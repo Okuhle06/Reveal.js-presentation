@@ -16,7 +16,7 @@ This is the first slide after the title.
 - Customizable themes
  
 
-![Okuhle Image](Okuhle.jpg)
+![Okuhle Image](Okuhle.jpg){width=60%}
 
 ---
 
