@@ -1,28 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <meta charset="utf-8" />
-  <title>Reveal.js Presentation – Siphokuhle Nkala</title>
+    <meta charset="utf-8" />
+    <title>Reveal.js Presentation – Siphokuhle Nkala</title>
 
-  <!-- Reveal.js core CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css" />
+    <!-- Reveal.js core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css" />
 
-  <!-- Reveal.js Theme -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/sky.css" id="theme" />
-
-  <style>
-    /* Make all slides vertically scrollable */
-    .reveal .slides section {
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
-    }
-  </style>
-</head>
+    <!-- Reveal.js Theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/sky.css" id="theme" />
+  </head>
 
   <body>
     <div class="reveal">
       <div class="slides">
-        <!-- Load slides from Markdown file -->
+
+        <!-- Title slide with gradient background -->
+        <section data-background-gradient="linear-gradient(to right, #6a11cb, #2575fc)">
+          <h1>My Reveal.js Demo</h1>
+          <h3>Siphokuhle Nkala</h3>
+        </section>
+
+        <!-- Load other slides from markdown -->
         <section data-markdown="slides.md" data-separator="---" data-separator-vertical="--"></section>
       </div>
     </div>
@@ -34,12 +33,11 @@
     <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
 
     <script>
-  Reveal.initialize({
-    hash: true,
-    scroll: true,
-    plugins: [ RevealMarkdown ],
-  });
-   </script>
+      Reveal.initialize({
+        hash: true,
+        plugins: [ RevealMarkdown ],
+        scroll: true,
+      });
+    </script>
   </body>
 </html>
-
