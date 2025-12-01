@@ -13,9 +13,10 @@ This is the first slide after the title.
 - Easy to use  
 - Supports Markdown  
 - Works in any browser  
-- Customizable themes  
+- Customizable themes
+ 
 
-![Okuhle Image](Okuhle.jpg){width=60%}
+![Okuhle Image](Okuhle.jpg)
 
 ---
 
